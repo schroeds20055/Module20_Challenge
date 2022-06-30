@@ -2,7 +2,7 @@
 
 ## To automate the creation of joint savings accounts, you will create a solidity smart contract that accepts two user addresses that are then able to control a joint savings account. Your smart contract will use ether management functions to implement various requirements from the financial institution to provide the features of the joint savings account.
 
-## The Starting file provided for this challenge contains a `pragma` for solidity version `5.0.0`.
+## Create a Joint Savings Account Contract in Solidity
 
 ### You will do the following:
 
@@ -49,3 +49,26 @@
 
 2. Finally, add the **default fallback function** so that your contract can store Ether sent from outside the deposit function.
  
+## Compile and Deploy Your Contract in the JavaScript VM
+
+1. Compile your smart contract. If an error occurs, review your code, and make the necessary changes for a successful compilation.
+
+2. In the Remix IDE, navigate to the "Deploy & Run Transacion" pane, and then make sure that "JavaScript VM" is selected as the environment.
+
+3. Click the Deploy button to deploy your smart contract, and then confirm that it successfully deployed.
+
+## Interact with your Deployed Smart Contract
+
+### Now that your contract is deployed, it's time to test its functionality! After each step, capturea a screenshot of the execution, and then save it in a folder named "Execution_Results. You'll share this folder with your final submission.
+
+### To interact with your deployed smart contract, complete the following steps:
+
+1. Use the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from you contract.
+
+2. Test the deposit functionality of your smart contract by sending the following amounts of ether. Afer eash transaction, use the contractBalance function to verify that the funds were added to you contract:
+
+    - Transaction 1: Send 1 ether as wei.
+    - Transaction 2: Send 10 ether as wei.
+    - Transaction 3: Send 5 ether.
+    
+3. Once you've successfully deposited funds into your contract, test the contract's withdrawal functionality by withdrawing 5 ether into accountOne and 10 ether into accountTwo. After each transaction, use the contractBalance function to verify that the funds were withdrawn from your contract. Also, use the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
