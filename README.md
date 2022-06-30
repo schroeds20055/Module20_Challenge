@@ -59,7 +59,7 @@
 
 ## Interact with your Deployed Smart Contract
 
-### Now that your contract is deployed, it's time to test its functionality! After each step, capturea a screenshot of the execution, and then save it in a folder named "Execution_Results. You'll share this folder with your final submission.
+### Now that your contract is deployed, it's time to test its functionality! After each step, capture a screenshot of the execution, and then save it in a folder named "Execution_Results. You'll share this folder with your final submission.
 
 ### To interact with your deployed smart contract, complete the following steps:
 
