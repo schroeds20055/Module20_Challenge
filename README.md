@@ -72,3 +72,33 @@
     - Transaction 3: Send 5 ether.
     
 3. Once you've successfully deposited funds into your contract, test the contract's withdrawal functionality by withdrawing 5 ether into accountOne and 10 ether into accountTwo. After each transaction, use the contractBalance function to verify that the funds were withdrawn from your contract. Also, use the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
+
+
+
+#### Deployed Contract
+
+![Deployed_Contract](https://github.com/schroeds20055/Module20_Challenge/blob/main/Execution_Results/Deployed_Contract.png "Deployed_Contract")
+
+#### Send 1 ether as wei
+
+![Send_1_Eth_as_WEI](https://github.com/schroeds20055/Module20_Challenge/blob/main/Execution_Results/Deposit_1_Eth_as_WEI.png "Send_1_Eth_as_WEI")
+
+#### Send 10 ether as wei
+
+![Send_10_Eth_as_WEI](https://github.com/schroeds20055/Module20_Challenge/blob/main/Execution_Results/Deposit_10_Eth_as_WEI.png "Send_10_Eth_as_WEI")
+
+#### Send 5 ether
+
+![Send_5_Eth](https://github.com/schroeds20055/Module20_Challenge/blob/main/Execution_Results/Deposit_5_Eth_as_Ether.png "Send_5_Eth")
+
+#### Set Accounts
+
+![Set_accounts](https://github.com/schroeds20055/Module20_Challenge/blob/main/Execution_Results/Set_Accounts.png "Set_accounts")
+
+#### Withdrawal 5 ether to account1
+
+![Withdrawal_5_Eth_to_account1](https://github.com/schroeds20055/Module20_Challenge/blob/main/Execution_Results/Withdraw_5Eth.png "Withdrawal_5_Eth_to_account1")
+
+#### Withdrawal 10 ether to account2
+
+![Withdrawal_10_Eth_to_account2](https://github.com/schroeds20055/Module20_Challenge/blob/main/Execution_Results/Withdraw_10_Eth.png "Withdrawal_10_Eth_to_account2")
